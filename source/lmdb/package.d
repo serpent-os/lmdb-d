@@ -15,5 +15,5 @@
 
 module lmdb;
 
-import lmdb.binding;
-import lmdb.macros;
+public import lmdb.binding;
+public import lmdb.macros;
