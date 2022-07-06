@@ -27,7 +27,10 @@ dstep -o "$tmp_file" \
   --package lmdb \
   --comments=true \
   --global-attribute '@nogc' \
-  --global-attribute 'nothrow'
+  --global-attribute 'nothrow' \
+  --global-import 'lmdb.macros' \
+  --space-after-function-name=true
+
 cat << EOM > source/lmdb/binding.d
 /*  Generated from LMDB headers on $(date -u +'%Y-%m-%d %H:%M UTC') */
 
