@@ -14,3 +14,6 @@
  */
 
 module lmdb;
+
+import lmdb.binding;
+import lmdb.macros;
