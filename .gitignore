@@ -3,11 +3,11 @@ docs.json
 __dummy.html
 docs/
 /lmdb-d
-lmdb-d.so
-lmdb-d.dylib
+liblmdb-d.so
+liblmdb-d.dylib
 lmdb-d.dll
-lmdb-d.a
-lmdb-d.lib
+liblmdb-d.a
+liblmdb-d.lib
 lmdb-d-test-*
 *.exe
 *.o
