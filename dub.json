@@ -5,6 +5,7 @@
 	"copyright": "Copyright © 2022, Serpent OS Developers",
 	"description": "LMDB Bindings",
 	"license": "Zlib",
+	"version": "0.0.1",
 	"name": "lmdb-d",
 	"libs": ["lmdb"]
 }
