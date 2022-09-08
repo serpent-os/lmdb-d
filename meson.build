@@ -1,7 +1,7 @@
 project(
 	'lmdb-d',
 	['d', 'c'],
-	version: '0.0.1',
+	version: '0.0.2',
 	license: [
 		'Zlib',
 	]
